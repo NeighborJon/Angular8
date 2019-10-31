@@ -5,11 +5,11 @@ import { ProductGetComponent, ProductEditComponent, ProductAddComponent } from '
 
 const routes: Routes = [
   {
-    path: 'product/:id',
+    path: 'edit/:id',
     component: ProductEditComponent
   },
   {
-    path: 'product',
+    path: 'product/create',
     component: ProductAddComponent
   },
   {
